@@ -10,7 +10,7 @@ resources:
   - repository: mytest
     type: github
     name: Paprika-a11y/mytest
-    ref: refs/heads/DorisProj-CI-(30)
+    ref: refs/heads/main
     endpoint: Paprika-a11y
 
 trigger: none
