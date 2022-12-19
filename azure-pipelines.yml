@@ -3,7 +3,7 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-trigger: none
+
 
 resources:
   repositories:
@@ -12,6 +12,8 @@ resources:
     name: Paprika-a11y/mytest
     ref: refs/heads/main
     endpoint: Paprika-a11y
+
+trigger: none
 
 pool:
   vmImage: ubuntu-latest
