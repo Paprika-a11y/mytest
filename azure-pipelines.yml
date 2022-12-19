@@ -13,7 +13,8 @@ resources:
     ref: refs/heads/main
     endpoint: Paprika-a11y
 
-trigger: none
+trigger: 
+- none
 
 pool:
   vmImage: ubuntu-latest
