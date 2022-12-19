@@ -14,6 +14,7 @@ resources:
     endpoint: Paprika-a11y
 
 trigger: none
+pr: none
 
 pool:
   vmImage: ubuntu-latest
