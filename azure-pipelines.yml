@@ -9,9 +9,9 @@ resources:
   repositories:
   - repository: mytest
     type: github
-    name: githubPAT
+    name: Paprika-a11y
     ref: refs/heads/main
-    endpoint: Paprika-a11y
+    endpoint: githubPAT
 
 trigger: 
 - none
