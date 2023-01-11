@@ -10,7 +10,7 @@ resources:
   - repository: mytest  # identifier (A-Z, a-z, 0-9, and underscore)
     type: github  # see the following "Type" topic
     name: Paprika-a11y/mytest  # repository name (format depends on `type`)
-    ref: main  # ref name to use; defaults to 'refs/heads/main'
+    ref: refs/heads/main  # ref name to use; defaults to 'refs/heads/main'
     endpoint: githubPAT  # name of the service connection to use (for types that aren't Azure Repos)
 
 pool:
