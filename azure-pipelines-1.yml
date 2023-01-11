@@ -14,7 +14,7 @@ resources:
     endpoint: githubPAT  # name of the service connection to use (for types that aren't Azure Repos)
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: windows-latest
 
 steps:
 - script: echo Hello, world!
