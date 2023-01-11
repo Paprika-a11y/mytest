@@ -9,7 +9,7 @@ resources:
   repositories:
   - repository: mytest
     type: github
-    name: Paprika-a11y
+    name: Paprika-a11y/mytest
     ref: refs/heads/main
     endpoint: githubPAT
 
