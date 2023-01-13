@@ -25,3 +25,4 @@ steps:
     targetType: 'inline'
     script: |
       sudo apt-get install
+      sudo apt-get update
