@@ -24,4 +24,4 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      apt-get install
+      sudo apt-get install
