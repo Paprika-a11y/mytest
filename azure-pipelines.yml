@@ -39,6 +39,6 @@ stages:
       timeoutInMinutes: 60 # 1 hour
       pool:
         vmImage: 'windows-latest'
-      steps:
-      - checkout: none
-      - script: echo "hello code"
+        steps:
+        - checkout: none
+        - script: echo "hello code"
