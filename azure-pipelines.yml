@@ -38,7 +38,7 @@ stages:
       displayName: "build development version"
       timeoutInMinutes: 60 # 1 hour
       pool:
-      vmImage: 'windows-latest'
+        vmImage: 'windows-latest'
       steps:
       - checkout: none
       - script: echo "hello code"
