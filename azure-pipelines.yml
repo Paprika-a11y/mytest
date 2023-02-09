@@ -16,7 +16,7 @@ resources:
     ref: refs/heads/main
     endpoint: githubPAT
 
-trigger : none
+trigger: none
 
 stages:
   - stage: buildDevelopment
