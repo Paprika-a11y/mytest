@@ -10,6 +10,11 @@ resources:
     name: Paprika-a11y/mytest
     ref: refs/heads/main
     endpoint: githubPAT
+  - repository: mytest2
+    type: github
+    name: Paprika-a11y/mytest2
+    ref: refs/heads/main
+    endpoint: githubPAT
 
 trigger : none
 
