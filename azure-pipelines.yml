@@ -11,6 +11,7 @@ resources:
     ref: refs/heads/main
     endpoint: githubPAT
 
+trigger : none
 # pool:
 #   vmImage: ubuntu-22.04
 
