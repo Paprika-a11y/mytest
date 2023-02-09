@@ -1,9 +1,7 @@
-# Starter pipeline
+g# Starter pipeline
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
-
-
 
 resources:
   repositories:
@@ -12,8 +10,7 @@ resources:
     name: Paprika-a11y/mytest
     ref: refs/heads/main
     endpoint: githubPAT
-    trigger: 
-    - main
+
 
 
 # pool:
