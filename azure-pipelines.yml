@@ -13,6 +13,7 @@ resources:
     ref: refs/heads/main
     endpoint: Paprika-a11y
 
+
 trigger: none
 
 pool:
