@@ -15,8 +15,6 @@ resources:
     trigger: 
     - main
 
-trigger: 
-- none
 
 # pool:
 #   vmImage: ubuntu-22.04
