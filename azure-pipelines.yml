@@ -12,19 +12,7 @@ resources:
     endpoint: githubPAT
 
 trigger : none
-# pool:
-#   vmImage: ubuntu-22.04
 
-# jobs:
-# - job: Job1
-#   steps:
-#     - checkout: none
-#     - task: Bash@3
-#       inputs:
-#         targetType: 'inline'
-#         script: |
-#           sudo apt-get install flake8
-#           sudo apt-get update
 
 stages:
   - stage: buildDevelopment
