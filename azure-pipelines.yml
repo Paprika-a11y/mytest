@@ -12,6 +12,8 @@ resources:
     name: Paprika-a11y/mytest
     ref: refs/heads/main
     endpoint: githubPAT
+    trigger: 
+    - main
 
 trigger: 
 - none
