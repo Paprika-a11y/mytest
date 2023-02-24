@@ -17,7 +17,7 @@ pool:
   vmImage: windows-latest
 
 steps:
-- script: echo Hello world1!
+- script: echo Hello world!
   displayName: 'Run a one-line script'
 
 - script: |
