@@ -22,4 +22,4 @@ steps:
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
-  displayName: 'Run a multi-line script1'
+  displayName: 'Run a multi-line script2'
